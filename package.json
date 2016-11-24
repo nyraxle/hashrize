@@ -1,0 +1,23 @@
+{
+  "name": "hashrize",
+  "author": {
+    "name": "Eduardo Arnold",
+    "url": "github.com/nyraxle"
+  },
+  "repository":{
+    "type": "git",
+    "url": ""
+  },
+  "version": "1.0.0",
+  "description": "Basic generate hash from a file content",
+  "keywords":[
+    "hmac",
+    "file",
+    "converter"
+  ],
+  "license": "MIT",
+  "main": "./lob/hashrize",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
