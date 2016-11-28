@@ -1,6 +1,35 @@
 # Hashrize
+`Minimalist CLI to generate HMAC digest from file content`
 
-`Basic generate hash from a file content`
+## Install
+```sh
 
-`notes`
-- [Angular JS Git Commit Messages](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#heading=h.8gbcep5xnw19)
+$ npm install -g hashrize
+```
+
+## Usage
+
+```
+Usage: gisthrower [command] <parameter> {OPTIONS} <parameters>
+
+Standard Options:
+    --version, -v                    Get versions of package
+       --help, -h                    Get CLI help
+
+Commands:
+             fh | fast-hmac    <inputFile> <output-file> <algorithm> <secret> <digest-encoding>   Calculate the HMAC digest of a file content and write the digest into given output file.
+```
+
+
+# Roadmap
+#### TODO
+```
+TODO:
+-  More 'friendly' options
+-  Apply only streams
+-  Test coverage
+```
+```
+DONE:
+-  Basic HMAC digest
+```

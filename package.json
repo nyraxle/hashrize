@@ -12,11 +12,13 @@
     "url": ""
   },
   "version": "1.0.0",
-  "description": "Basic generate hash from a file content",
+  "description": "Basic generate hash digest from a file content",
   "keywords": [
     "hmac",
     "file",
-    "converter"
+    "converter",
+    "digest",
+    "hash"
   ],
   "license": "MIT",
   "main": "./lib/hashrize",
