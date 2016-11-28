@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "github.com/nyraxle/hashrize"
   },
   "version": "1.0.0",
   "description": "Basic generate hash digest from a file content",
