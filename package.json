@@ -1,9 +1,12 @@
 {
   "name": "hashrize",
+  "version": "1.0.0",
+  "description": "Basic generate hash digest from a file content",
   "author": {
-    "name": "Eduardo Arnold",
+    "name": "Eduardo Arnold <eduardo@radbird.com>",
     "url": "github.com/nyraxle"
   },
+  "license": "MIT",
   "bin": {
     "hashrize": "./bin/hashrize.js"
   },
@@ -11,8 +14,10 @@
     "type": "git",
     "url": "github.com/nyraxle/hashrize"
   },
-  "version": "1.0.0",
-  "description": "Basic generate hash digest from a file content",
+  "bugs": {
+    "url": "https://github.com/nyraxle/hashrize/issues"
+  },
+  "homepage": "https://github.com/nyraxle/hashrize/gisthrower#readme",
   "keywords": [
     "hmac",
     "file",
@@ -20,7 +25,6 @@
     "digest",
     "hash"
   ],
-  "license": "MIT",
   "main": "./lib/hashrize",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
