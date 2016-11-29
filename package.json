@@ -1,6 +1,6 @@
 {
   "name": "hashrize",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Basic generate hash digest from a file content",
   "author": {
     "name": "Eduardo Arnold <eduardo@radbird.com>",
@@ -30,6 +30,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "commander": "^2.9.0"
+    "commander": "^2.9.0",
+    "hmac-file-stream": "^1.5.0"
   }
 }

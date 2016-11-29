@@ -17,7 +17,15 @@ Standard Options:
        --help, -h                    Get CLI help
 
 Commands:
-             fh | fast-hmac    <inputFile> <output-file> <algorithm> <secret> <digest-encoding>   Calculate the HMAC digest of a file content and write the digest into given output file.
+             fh | fast-hmac    <input> <algorithm> <secret> <encoding>    Calculate the HMAC digest of a file content and write the digest into given output file.
+
+             Parameters:
+
+                                input               file to parse as a digest
+                            algorithm               sha1, sha256...
+                               secret               key to create the digest (shhh... its a secret)
+                             encoding               encoding of the output digest (hex, binnary...)
+
 ```
 
 
@@ -25,11 +33,11 @@ Commands:
 #### TODO
 ```
 TODO:
--  More 'friendly' options
--  Apply only streams
 -  Test coverage
 ```
 ```
 DONE:
+-  Apply only streams
+-  More 'friendly' options
 -  Basic HMAC digest
 ```
