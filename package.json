@@ -1,6 +1,6 @@
 {
   "name": "hashrize",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Basic generate hash digest from a file content",
   "author": {
     "name": "Eduardo Arnold <eduardo@radbird.com>",

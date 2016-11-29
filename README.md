@@ -10,7 +10,7 @@ $ npm install -g hashrize
 ## Usage
 
 ```
-Usage: gisthrower [command] <parameter> {OPTIONS} <parameters>
+Usage: hashrize [command] <parameters>
 
 Standard Options:
     --version, -v                    Get versions of package
